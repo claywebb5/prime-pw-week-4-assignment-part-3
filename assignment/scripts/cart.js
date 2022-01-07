@@ -11,3 +11,9 @@ basket.push( item );
 return true;
 }
 console.log(addItem());
+
+addItem('Fruit');
+addItem('Eggs');
+addItem('Bread');
+
+console.log(basket);
