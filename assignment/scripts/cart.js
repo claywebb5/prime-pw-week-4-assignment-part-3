@@ -7,13 +7,16 @@ let basket = [];
 
 
 function addItem (item) {
-basket.push( item );
-return true;
+  basket.push( item );
+  return true;
 }
-console.log(addItem());
+console.log('This should say true:', addItem('Milk'));
 
 addItem('Fruit');
 addItem('Eggs');
 addItem('Bread');
 
-console.log(basket);
+
+function listItems() {
+
+}
