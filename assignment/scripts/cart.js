@@ -16,7 +16,11 @@ addItem('Fruit');
 addItem('Eggs');
 addItem('Bread');
 
+let arrayLength = basket.length;
 
-function listItems() {
-
+function listItems(arrayLength) {
+  for (let i = 0; i <basket.length; i++) {
+    console.log(basket[i]);
+  }
 }
+console.log(listItems());
