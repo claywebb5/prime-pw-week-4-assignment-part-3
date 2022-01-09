@@ -24,3 +24,12 @@ function listItems(arrayLength) {
   }
 }
 console.log(listItems());
+
+
+function empty() {
+  while (basket.length > 0) {
+    basket.pop();
+  }
+  return basket;
+}
+console.log(empty());
